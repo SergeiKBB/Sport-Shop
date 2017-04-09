@@ -1,0 +1,255 @@
+.mid {
+/*    margin: 0 13.5% 0;*/
+    width: 1020px;
+    margin: 0 auto;
+}
+.clearLeft {
+    clear: left
+}
+/*-----------------------HEADER-----------------*/
+/*======================Top Header==============*/
+.topHeader {
+    width: 100%;
+    height: 45px;
+    background-color: #4cb1ca;
+}
+.leftMenu {
+    float: left;
+}
+.rightMenu {
+    float: right;
+}
+.userMenu {
+    padding: 10px 0 10px 0;
+}
+.leftMenu span {
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+}
+.leftMenu .lang-curr {
+    color: #bef2ff;
+}
+.leftMenu .countLC {
+    color: #ffffff;
+    margin-right: 25px;
+}
+.rightMenu a {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 15px 0;
+    text-decoration: none;
+}
+.rightMenu a:hover {
+    color: #8ad7ea;
+}
+.rightMenu {
+    color: #fff;
+}
+/*=================END Top Header============*/
+
+/*===================Shop Menu==============*/
+.shopMenu {
+    height: 106px;
+}
+.shopMenu>a {
+    float: left;
+    margin-top: 40px;
+}
+.shopMenu nav {
+    margin-top: 42.5px;
+    margin-left: 59px;
+    display: inline-block;
+}
+.shopMenu a{
+    color: #656565;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+.shopMenu a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+.basket {
+    margin-top: 35.5px;
+    float: right;
+}
+.basket input {
+    border: 0;
+    background-color: transparent;
+    padding-left: 10px;
+    outline: none;
+    width: 150px;
+}
+.basket ::-webkit-input-placeholder {
+    color: #b7b7b7;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+}
+.container-1{
+    width: 175px;
+    height: 29px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    border: 1px solid #c6c6c6;
+    background-color: #ffffff;
+    padding-top: 3px;
+    display: inline-block;
+    margin-right: 14px;
+}
+.container-1 a {
+    position: absolute;
+    right: 7px;
+    top: 3px;
+    margin: 0;
+}
+.basket button {
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    padding: 0;
+}
+.basket a {
+    margin-right: 3px;
+    margin-left: 13px;
+}
+/*=================END Shop Menu============*/
+
+/*-----------------END HEADER-----------------*/
+
+
+/*-----------------------SLIDER-----------------*/
+.slider {
+    margin-bottom: 47px;
+}
+/*-----------------END SLIDER------------------*/
+
+/*-----------------CATALOG------------------*/
+.contentCatalog {
+    position: relative;
+}
+.bigLitter {
+    color: #635f57;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    float: left;
+}
+.catalog {
+    margin-top: 24px;
+    float: left;
+}
+.element {
+    width: 233px;
+    height: 318px;
+    box-shadow: 0 0 5px #eaeaea;
+    background-color: #ffffff;
+    position: relative;
+    padding-top: 7px;
+    float: left;
+    margin: 0 28px 28px 0;
+}
+.fonImg {
+    width: 233px;
+    height: 229px;
+    background-color: #eff1f0;
+}
+.element p {
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 22px;
+    color: #464148;
+    font-size: 14px;
+    display: inline-block;
+    margin: 10px 0 0 12px;
+}
+.price {
+    color: #7db122;
+    font-size: 18px;
+    margin-left: 12px;
+}
+.element img[alt="Добавить в корзину"] {
+    position: absolute;
+    right: 13px;
+    bottom: 25px;
+}
+.midCatalog {
+    float: left;
+}
+
+aside {
+    float: right;
+}
+.adsTop {
+    position: relative;
+    width: 233px;
+    height: 505px;
+    border-top: 7px solid #4cb1ca;
+    box-shadow: 0 0 5px 5px #eaeaea;
+    background-color: #fff;
+    text-align: center;
+}
+.adsTop span {
+    margin-top: 10px;
+    float: none;
+    display: inline-block;
+}
+.adsTop button {
+    width: 132px;
+    height: 44px;
+    background-color: #4cb1ca;
+    position: absolute;
+    left: 22%;
+    bottom: 50px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    border: 0;  
+}
+.adsBottom {
+    width: 233px;
+    height: 291px;
+    border-top: 7px solid #4cb1ca;
+    margin-top: 30px;
+    box-shadow: 0 0 5px 5px #eaeaea;
+    text-align: center;
+    padding-top: 15px;
+}
+.adsBottom p {
+    color: #696969;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 23px 0 11px 0;
+    display: inline-block; 
+}
+.adsBottom hr {
+    width: 85px;
+    margin: 0 auto;
+}
+.adsBottom input {
+    margin: 14px 0 18px 0 ;
+    width: 185px;
+    height: 29px;
+    border: 1px solid rgba(198, 198, 198, 0.5);
+    background-color: #ffffff;
+}
+.adsBottom button {
+    width: 112px;
+    height: 44px;
+    background-color: #7eb123;
+    border: 0;
+}
+
+/*-----------------END CATALOG------------------*/
